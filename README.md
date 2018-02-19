@@ -13,5 +13,5 @@ docker build -t sockmal/ansible:VERSION .
 
 ## Run
 ```
-docker run --rm sockmal/kubectl:VERSION --server=http://<server-name>:8080 get pods
+docker run --rm sockmal/ansible:VERSION
 ```
